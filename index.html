@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SITE WEB STATIQUE INTERACTIF - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MONY TCHUEMBOU ALEXANDRE RONNY</h1>
+    <p>École : KEYCE Academy | Filière : IABD | Niveau : B1</p>
+  </header>
+
+  <main>
+    <section id="competences">
+      <h2>Compétences techniques</h2>
+      <div class="competences-list">
+        <button onclick="afficherCompetence('HTML')">HTML</button>
+        <button onclick="afficherCompetence('CSS')">CSS</button>
+        <button onclick="afficherCompetence('JavaScript')">JavaScript</button>
+        <button onclick="afficherCompetence('Python')">Python</button>
+        <button onclick="afficherCompetence('SQL')">SQL</button>
+      </div>
+      <div id="description">
+        <em>Cliquez sur une compétence pour voir la description.</em>
+      </div>
+      <div id="compteurs">
+        <strong>Compétences vues :</strong>
+        <ul id="listeCompteurs"></ul>
+      </div>
+    </section>
+
+    <section id="projets">
+      <h2>Projets réalisés</h2>
+      <div class="projet">
+        <h3>Site E-commerce</h3>
+        <p>Un site de vente en ligne avec panier et filtrage des produits.</p>
+        <a href="https://github.com/tonprofil/site-ecommerce" target="_blank">Voir sur GitHub</a>
+      </div>
+      <div class="projet">
+        <h3>Gestion des recettes</h3>
+        <p>Application pour gérer des recettes et générer des listes de courses.</p>
+        <a href="https://github.com/tonprofil/gestion-recettes" target="_blank">Voir sur GitHub</a>
+      </div>
+      <div class="projet">
+        <h3>Portfolio personnel</h3>
+        <p>Mon site personnel présentant mes projets et compétences.</p>
+        <a href="https://github.com/tonprofil/portfolio" target="_blank">Voir sur GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Téléphone : +237 690564625</p>
+      <p>Email : <a href="mailto:ton.email@example.com">Meech345@gmail.com</a></p>
+      <p>LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">Mon LinkedIn</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

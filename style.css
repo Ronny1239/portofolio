@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #22156b;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+main {
+  padding: 1em;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #0b0a4d;
+  padding-bottom: 0.2em;
+}
+.competences-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.competences-list button {
+  padding: 0.5em 1em;
+  background: #110547;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.competences-list button:hover {
+  background: #170653;
+}
+#description {
+  background: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  min-height: 60px;
+}
+#compteurs {
+  margin-top: 1em;
+  background: #e0e0e0;
+  padding: 1em;
+  border-radius: 5px;
+}
+.projet {
+  background: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.projet a {
+  color: #190a4d;
+  text-decoration: none;
+}
+.projet a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .competences-list {
+    flex-direction: column;
+  }
+}
